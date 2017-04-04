@@ -57,6 +57,8 @@ header {
 	background-color: #e7e8e1; 
 	padding-bottom: 30px;
 	position: relative;
+	width: 100%;
+	height: auto;
 
 }
 
@@ -202,5 +204,7 @@ li {
 
 img {
 	border: 10px black;
+	width: 100%;
+	height: auto;
 }
 
