@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+@media screen and (max-width: 320px) {
+Body {
+	Font-size: 100%
+		}
+	}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+	text-align: center;
+	background-size: cover;
+	background-color: #e7e8e1; 
+	padding-bottom: 30px;
+	position: relative;
+
+}
+
+.navbar {
+	padding: 1px;
+	background-size: cover;
+	background-color: black;
+	line-height: 40px;
+	text-align: center;
+	font-family: "arial", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	word-spacing: 30px;
+	color: white;
+
+}
+
+.logo {
+	float: left;
+	padding-left: 30px;
+}
+
+.date {
+	padding-bottom: 5px;
+	padding-right: 50px;
+	float: right;
+}
+
+.welcome {
+	padding-bottom: 5px;
+	float:left;
+	padding-left: 60px;
+}
+
+.row {
+	font-family: "arial", sans-serif;
+	padding: 30px;
+}
+
+.headline {
+	background-color: #e7e8e1;
+}
+
+.news {
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 60px;
+}
+
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 200px;
+  }
+}
+
+input[type=search] { 
+	color: black;  
+	text-align: left;
+	font-family: "arial", sans-serif;
+	cursor: pointer;
+	height: 11px;
+	width: 10%;           
+	word-spacing: 10px;               
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+  }
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+	font-family: "arial", sans-serif;
+	font-weight: bold; 
+}
+h1 {
+	font-family: "arial", sans-serif;
+	text-align: left;
+	font-size: 20px;
+	color:#414449;
+
+}
+
+.other-news {
+	font-family: "arial", sans-serif;
+	text-align: left;
+	font-weight: bold;
+}
+
+.adv {
+	float: left;
+}
+
+h2 {
+	font-family: "arial", sans-serif;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+p {
+	font-family: "arial", sans-serif;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+ul {
+	padding: 50px;
+	margin-bottom: 10px;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+img {
+	border: 10px black;
+}
+
